@@ -1,0 +1,21 @@
+{
+  "name": "hammer-hai-read-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "login": "node login.mjs",
+    "refresh-login": "node login.mjs --refresh",
+    "token": "node token.mjs",
+    "test": "node --test",
+    "list": "node cli.mjs list-emails",
+    "read": "node cli.mjs read-emails"
+  },
+  "dependencies": {
+    "api-anything": "0.3.2"
+  }
+}
